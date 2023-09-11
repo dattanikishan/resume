@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>boot strap resume</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+
+
+        .skill{
+            display: none;
+        }
+
+        .experience{
+            display: none;
+        }
+        .ser{
+            background-color:rgb(67, 66, 66);
+            transition: 0.2s;
+        }
+        .ser:hover{
+
+            background-color: lightgrey;
+            color: black;
+           
+
+        }
+        .ser:hover i{
+
+            color: black;
+        }
+        .wk{
+            background-color:rgb(67, 66, 66);
+            transition: 0.2s;
+            height: 540px;
+            overflow-y: hidden;
+        }
+        .wp{
+            transition: 0.5s;
+            background-color:  darkgray;
+            border-radius: 10px;
+        }
+        .wp:hover{
+      
+            transform: translateY(-480px);
+            background-color: darkgray;
+            opacity: 0.9;
+            color: black;
+
+            
+          
+        }
+        
+        
+
+
+    </style>
+
+    </head>
+    <body class="text-white bg-dark">
+
+        <div class="nav bg-dark mt-0 ">
+
+            <ul class="d-flex list-unstyled text-light mt-3">
+                <li class="m-3"><a class="text-decoration-none text-light cursour" href="#home">Home         </a></li>
+                <li class="m-3"><a class="text-decoration-none text-light cursour" href="#about">About Us     </a></li>
+                <li class="m-3"><a class="text-decoration-none text-light cursour" href="#service">Services     </a></li>
+                <li class="m-3"><a class="text-decoration-none text-light cursour" href="#port">Portfolio    </a></li>
+                <li class="m-3"><a class="text-decoration-none text-light cursour" href="#con">Contact Us   </a></li>
+            </ul>
+          
+        </div>
+        <hr>
+
+        <div class="container" id="home">
+
+            <div
+                class="row vh-100 mt-2 align-content-center">
+
+                <div class="col-10">
+
+                    <h3>Hey</h3>
+                    <h3>I'm <span class="text-danger"> Kishan</span></h3>
+                    <h3>Web developer</h3>
+
+                </div>
+
+                <div class="col-2">
+
+                    <img src="pic.png" height="100px" alt>
+                    <p>Now ready To Design Your Web <i
+                            class="fa-solid fa-laptop-code"
+                            style="color: #d10e0e;"></i></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row  ">
+
+            <h2 class="text-center" id="about">About Me</h2>
+<hr>
+            <div class="col-4   m-auto">
+
+                <img src="pic.png" class="mt-5" height="280px" width="190px" alt>
+
+            </div>
+
+            <div class="col-6  m-5 lh-lg">
+
+                My name is Kishan dattani. I am from Jamnagar I have completed
+                my CSP [Computer software Programming course] from IANT. I
+                belong to a nuclear family. My hobbies are traveling and
+                listening music My strengths are I am hard working and self
+                motivating person and I am quick learner. That's all about me.
+                Thank you very much.
+
+                <div class="row">
+
+                    <div class="col-12">
+
+                        <button onclick=" education()" class="btn btn-danger m-3 w-25 active border-bottom border-light" id="edubtn">Education</button>
+                        <button onclick="skill()"  class="btn btn-danger m-3 w-25" id="skibtn">Skill</button>
+                        <button onclick="experience()" class="btn btn-danger m-3 w-25" id="exebtn">Experience</button>
+
+                    </div>
+
+                    <div class="col-9 education" id="edu">
+
+                        <li> March 2017-18<br>
+                            <span class="text-danger"> &nbsp; &nbsp; &nbsp;
+                                Shree Karmyog Vidhyalay, SSC - 92.09%</span>
+                        </li>
+                        <li> March 2020-21<br>
+                            <span class="text-danger"> &nbsp; &nbsp; &nbsp;
+                                Morden School, HSC - 60.09%</span>
+                        </li>
+                        <li> Aug 2022-23<br>
+                            <span class="text-danger"> &nbsp; &nbsp; &nbsp; IANT
+                                - CSP[Computer Software Programming] - A+</span>
+                        </li>
+
+                    </div>
+
+                    <div class="col-9 skill" id="ski">
+
+                        <li> Web Design<br>
+                            <span class="text-danger"> &nbsp; &nbsp; &nbsp;
+                                HTML,CSS,JAVASCRIPT,JQUERY,BOOTSTRAP.</span>
+                        </li>
+                        <li> Coding Skill<br>
+                            <span class="text-danger"> &nbsp; &nbsp; &nbsp;
+                                C,C++,C#,PHP,MYSQL,PYTHON,ASP.NET.</span>
+                        </li>
+                        <li> UI-UX Software<br>
+                            <span class="text-danger"> &nbsp; &nbsp; &nbsp;
+                                Figma - Design for UI/UX</span>
+                        </li>
+
+                    </div>
+
+                    <div class="col-9 experience" id="exe">
+
+                        <li> Jan-5 To April-25<br>
+                            <span class="text-danger"> &nbsp; &nbsp; &nbsp; • As
+                                a Web Designer & Frontend Developer in Gokul
+                                &nbsp; &nbsp; &nbsp; Techno Jamnagar<br>
+                                &nbsp; &nbsp; &nbsp; • Work On HTML5, CSS3 & JS
+                                (basic) or UI or UX Tool Figma Best Experience.
+                            </span>
+                        </li>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row" id="service">
+
+            <h2 class="text-center">Services</h2>
+<hr>
+            <div class="col-3 m-5 rounded ser" >
+
+                <h2 class="text-danger text-center"> <i
+                        class="fa-solid fa-code text-center"
+                       ></i> <br>Web Designer</h2>
+
+                <p class="m-0 text-center ">As an adept web designer, I bring a
+                    wealth of expertise in HTML, CSS, JavaScript, jQuery, and
+                    Bootstrap to provide comprehensive web design services.
+                    These technical skills form the bedrock of my ability to
+                    craft visually stunning and responsive websites. I use HTML
+                    and CSS to meticulously structure and style web content,
+                    ensuring a polished user experience. JavaScript and jQuery
+                    empower me to inject interactivity and dynamic features,
+                    enhancing user engagement. Bootstrap is my framework of
+                    choice for creating seamless, cross-device layouts that
+                    prioritize user accessibility. My proficiency in these
+                    technologies enables me to transform client visions into
+                    captivating web solutions, fostering user satisfaction and
+                    business success.</p>
+
+            </div>
+
+            <div class="col-3 m-5  rounded ser" >
+
+                <h2 class="text-danger text-center"><i class="fa-solid fa-database" ></i> <br>DataBase Mange</h2>
+
+                <p class="m-0 text-center">I am proficient in both PHP and
+                    ASP.NET for efficient database management using MySQL. With
+                    PHP, I leverage its robust scripting capabilities to develop
+                    dynamic web applications, ensuring seamless data retrieval,
+                    storage, and manipulation in MySQL databases. My expertise
+                    in PHP allows me to create responsive and user-friendly
+                    interfaces for interacting with MySQL databases, making
+                    data-driven websites a reality. Additionally, I am skilled
+                    in utilizing ASP.NET alongside MySQL, harnessing the power
+                    of this framework for building robust, secure, and scalable
+                    applications. My adeptness in both PHP and ASP.NET, combined
+                    with MySQL, allows me to provide comprehensive database
+                    management solutions for diverse project requirements.</p>
+
+            </div>
+
+            <div class="col-3 m-5 rounded ser">
+
+                <h2 class="text-danger text-center"><i class="fa-brands fa-figma"></i>  <br>Figma [ UI/UX ]</h2>
+
+                <p class="m-0 text-center">Proficient in Figma, I adeptly create
+                    UI/UX designs with precision and creativity. Leveraging
+                    Figma's collaborative features and powerful design tools, I
+                    craft visually appealing and user-centric interfaces. My
+                    expertise includes wireframing, prototyping, and
+                    pixel-perfect design, ensuring a seamless user experience. I
+                    excel in designing responsive layouts that adapt seamlessly
+                    to various devices. Figma's real-time collaboration
+                    capabilities enable me to work seamlessly with
+                    cross-functional teams, enhancing project efficiency. My
+                    UI/UX designs prioritize usability, accessibility, and
+                    aesthetics, resulting in intuitive and engaging user
+                    interfaces. With a strong eye for detail and a passion for
+                    innovation, I consistently deliver Figma-based designs that
+                    exceed client expectations and drive positive user
+                    interactions.</p>
+
+            </div>
+        </div>
+
+
+        <div class="row" id="port">
+
+            <h2 class="text-center">My Work</h2>
+<hr>
+            <div class="col-3 m-5 rounded wk"  >
+
+                <h2 class="text-danger text-center">  <br>Login Design [UI/UX]</h2>
+
+                <img src="fig.png" height="380px"  width="290px" alt="">
+
+               
+                <p class="m-0 text-center wp  mt-1">
+                    
+                    <button style="width: 280px; background-color:none; height:30px;"class="wp">Read</button>
+
+                    As an adept web designer, I bring a
+                    wealth of expertise in HTML, CSS, JavaScript, jQuery, and
+                    Bootstrap to provide comprehensive web design services.
+                    These technical skills form the bedrock of my ability to
+                    craft visually stunning and responsive websites. I use HTML
+                    and CSS to meticulously structure and style web content,
+                    ensuring a polished user experience. JavaScript and jQuery
+                    empower me to inject interactivity and dynamic features,
+                    enhancing user engagement. Bootstrap is my framework of
+                    choice for creating seamless, cross-device layouts that
+                    prioritize user accessibility. My proficiency in these
+                    technologies enables me to transform client visions into
+                    captivating web solutions, fostering user satisfaction and
+                    business success.</p>
+
+            </div>
+
+            <div class="col-3 m-5  rounded wk" >
+
+                <h2 class="text-danger text-center"> <br>My Portfolio</h2>
+                <img src="port.png" height="400px" width="290px" alt="">
+
+                <p class="m-0 text-center wp mt-3">
+                    
+                    <button style="width: 280px; background-color:none; height:30px;"class="wp mt-1">Read</button>
+                    I am proficient in both PHP and
+                    ASP.NET for efficient database management using MySQL. With
+                    PHP, I leverage its robust scripting capabilities to develop
+                    dynamic web applications, ensuring seamless data retrieval,
+                    storage, and manipulation in MySQL databases. My expertise
+                    in PHP allows me to create responsive and user-friendly
+                    interfaces for interacting with MySQL databases, making
+                    data-driven websites a reality. Additionally, I am skilled
+                    in utilizing ASP.NET alongside MySQL, harnessing the power
+                    of this framework for building robust, secure, and scalable
+                    applications. My adeptness in both PHP and ASP.NET, combined
+                    with MySQL, allows me to provide comprehensive database
+                    management solutions for diverse project requirements.</p>
+
+            </div>
+
+            <div class="col-3 m-5 rounded wk">
+
+                <h2 class="text-danger text-center"> <br>Gift Shop</h2>
+                <img src="ecom.png" height="400px" width="290px" alt="">
+                <p class="m-0 text-center wp mt-3">
+                    <button style="width: 280px; background-color:none; height:30px;"class="wp mt-1">Read</button>
+                    Proficient in Figma, I adeptly create
+                    UI/UX designs with precision and creativity. Leveraging
+                    Figma's collaborative features and powerful design tools, I
+                    craft visually appealing and user-centric interfaces. My
+                    expertise includes wireframing, prototyping, and
+                    pixel-perfect design, ensuring a seamless user experience. I
+                    excel in designing responsive layouts that adapt seamlessly
+                    to various devices. Figma's real-time collaboration
+                    capabilities enable me to work seamlessly with
+                    cross-functional teams, enhancing project efficiency. My
+                    UI/UX designs prioritize usability, accessibility, and
+                    aesthetics, resulting in intuitive and engaging user
+                    interfaces. With a strong eye for detail and a passion for
+                    innovation, I consistently deliver Figma-based designs that
+                    exceed client expectations and drive positive user
+                    interactions.</p>
+
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-around" id="con">
+
+            <h2 class="text-center">Contact Us</h2>
+            <hr>
+                <div class="col-4 m-5 lh-lg">
+
+                  
+
+                    <h4 class="lh-lg"><i class="fa-solid fa-phone" style="color: #ffffff;"></i>  +91 95580 86931</h4>
+                    <h4><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>  dattanikishan4@gmail.com</h4>
+
+                </div>
+
+                <div class="col-6 m-3">
+
+                    <form action="" method="post">
+
+                        <input class="w-75 bg-dark border rounded" type="text" placeholder="Enter Your Name"><br><br>
+
+                        <input class="w-75 bg-dark border rounded" type="text" placeholder="example@gmial.com"><br><br>
+
+                        <input class="w-75 bg-dark border rounded h-50" type="text" placeholder="Your Message......"><br><br>
+
+                        <button class="w-50 bg-danger rounded border">submit</button>
+                    </form>
+
+
+                </div>
+
+        </div>
+
+
+        <script>
+
+
+            var edu = document.getElementById("edu");
+            var ski = document.getElementById("ski");
+            var exe = document.getElementById("exe");
+
+            function education(){
+
+                if(edu.style.display === "none"){
+
+                    edu.style.display ="block";
+                    ski.style.display = "none";
+                    exe.style.display = "none"
+
+                }
+                else{
+                    edu.style.display = "none";
+
+                }
+
+            }
+
+            function skill(){
+
+                if(ski.style.display === "none"){
+
+                    ski.style.display ="block";
+                    edu.style.display = "none";
+                    exe.style.display = "none"
+
+                }
+                else{
+                    ski.style.display = "none";
+                    
+                }
+
+            }
+
+            function experience(){
+
+                if(exe.style.display === "none"){
+
+                    exe.style.display ="block";
+                    ski.style.display = "none";
+                    edu.style.display = "none"
+
+                }
+                else{
+                    exe.style.display = "none";
+                    
+                }
+
+            }
+
+        </script>
+
+    </body>
+</html>
